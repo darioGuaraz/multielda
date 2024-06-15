@@ -1,4 +1,4 @@
-const peliculasJson = "/PPteclab-multielda/src/data/peliculas.json";
+const peliculasJson = "/Multielda/src/data/series.json";
 let peliculasFiltradas = [];
 let peliculas = [];
 
