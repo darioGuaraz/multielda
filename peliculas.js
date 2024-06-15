@@ -1,6 +1,7 @@
 let peliculas = [];
 let peliculasFiltradas = [];
-const peliculasJson = "/PPteclab-multielda/src/data/peliculas.json";
+const peliculasJson = "/Multielda/src/data/peliculas.json";
+//const peliculasJson = "/PPteclab-multielda/src/data/peliculas.json";
 
 fetch(peliculasJson)
   .then((respuesta) => respuesta.json())
