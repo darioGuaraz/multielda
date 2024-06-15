@@ -1,0 +1,11 @@
+{
+  "name": "ppteclab-multielda",
+  "version": "1.0.0",
+  "description": "catalogo de peliculas online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dario Hernan Guaraz",
+  "license": "ISC"
+}

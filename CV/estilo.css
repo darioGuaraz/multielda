@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #2d728f;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #8bb1c2;
+  color: #2e2929;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #dbe0e0;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.profile {
+  display: flex;
+  display: inline-block;
+  align-items: center;
+}
+
+.profile img {
+  float: inline-start;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 2px solid #5db0d6;
+  margin-right: 15px;
+}
+
+.profile h1 {
+  margin-left: 8rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+}
+
+.profile p {
+  margin-left: 8rem;
+
+  font-size: 18px;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 22px;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.job,
+.project {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 5px solid #043e58;
+  background-color: #fff7f7;
+  border-radius: 5px;
+}
+
+.job h3,
+.project h3 {
+  font-size: 18px;
+  color: rgb(6, 76, 97);
+  margin-bottom: 5px;
+}
+
+.job p,
+.project p {
+  margin: 5px 0;
+}
+
+.job ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.job ul li,
+.skills ul li {
+  margin-bottom: 5px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li {
+  background: var(--primary-color);
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+a {
+  color: rgb(5, 18, 136);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section.about,
+section.education,
+section.skills,
+section.projects {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}

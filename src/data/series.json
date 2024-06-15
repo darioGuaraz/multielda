@@ -1,0 +1,62 @@
+[
+  {
+    "titulo": "What a Cartoon",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie1.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/what-a-cartoon-show-complete' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Spiderman",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie2.jpeg",
+    "iframe": "<iframe src='https://archive.org/embed/spider-mantheanimatedseries' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Looney Tunes",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie3.jpeg",
+    "iframe": "<iframe src='https://archive.org/embed/the-looney-tunes-show-season-2-of-2-mkv' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Family Dog",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie4.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/family-dog-episode-1-show-dog' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Pokemon",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie5.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/pokemon-chronicles' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Liquid Television",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie6.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/liquid-television-complete' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Monster Anime",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie7.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/Monster-Upscaled' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Goosebumps",
+    "genero": "Terror",
+    "imagen": "../src/assets/img/serie8.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/Goosebumps1995TVSeries' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Garfield",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie9.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/garfield-and-friends-complete-series' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  },
+  {
+    "titulo": "Wacky Races",
+    "genero": "Animado",
+    "imagen": "../src/assets/img/serie10.jpg",
+    "iframe": "<iframe src='https://archive.org/embed/wacky-races-s-01-e-03-why-oh-why-wyoming-sdtv' width='640' height='480' frameborder='0' webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen></iframe>"
+  }
+]
