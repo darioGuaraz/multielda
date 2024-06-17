@@ -52,13 +52,16 @@ header {
 .profile h1 {
   margin-left: 8rem;
   font-family: "Orbitron", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.836);
+  text-shadow: 34px 15px 13px rgb(0, 0, 0);
 }
 
 .profile p {
   margin-left: 8rem;
+  font-size: 21px;
 
-  font-size: 18px;
+  text-shadow: 34px 15px 13px rgb(0, 0, 0);
 }
 
 .contact-info {
