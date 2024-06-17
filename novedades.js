@@ -41,18 +41,35 @@ function traerNovedadesPeliculas(apiKey) {
         }
 
         carouselItem.innerHTML = `
+       
+        
+        <div class="carousel-caption d-none d-md-block">
+          <h2>${movie.title}</h2>
+          <br>
           <img src="https://image.tmdb.org/t/p/w780/${
             movie.poster_path
           }" class="d-block w-100" alt="${movie.title} Poster">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>${movie.title}</h2>
-            <p>${
-              movie.overview.length > 1000
-                ? movie.overview.substring(0, 1000) + "..."
-                : movie.overview
-            }</p>
-          </div>
-        `;
+        
+          <p>${truncateOverview(movie.overview)}</p>
+        </div>
+      `;
+
+        // Función para truncar y agregar saltos de línea según la longitud del overview
+        function truncateOverview(overview) {
+          const maxCharsPerLine = 570; // Máximo de caracteres por línea antes de agregar <br>
+          let truncatedOverview = "";
+
+          // Iterar sobre el overview y agregar <br> cuando se supera maxCharsPerLine caracteres
+          for (let i = 0; i < overview.length; i++) {
+            truncatedOverview += overview[i];
+            if ((i + 1) % maxCharsPerLine === 0 && i !== overview.length - 1) {
+              // Agregar <br> si no es el último carácter y se supera el límite de caracteres por línea
+              truncatedOverview += "<br>";
+            }
+          }
+
+          return truncatedOverview;
+        }
 
         inner.appendChild(carouselItem);
       });

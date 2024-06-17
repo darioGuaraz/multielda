@@ -184,18 +184,37 @@ iframe {
 }
 
 /*-------------------Novedades slider carusel-------*/
+
 .carousel-item img {
-  max-height: 50rem;
-  object-fit: contain;
+  max-height: 47rem; /* Altura máxima de la imagen */
+  width: 100%; /* Ancho del 100% del contenedor */
+  object-fit: contain; /* Ajusta cómo se ajusta la imagen dentro del contenedor */
+  display: block; /* Hace que la imagen ocupe todo el ancho disponible */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.747);
-  padding: 20px;
-  border-radius: 10px;
-}
+
 .carousel-caption h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  -webkit-text-stroke: 1.2px rgba(10, 7, 7, 0.836);
+  text-shadow: 1px 2px 23px rgba(233, 23, 23, 0.747);
+  text-align: center;
 }
 .carousel-caption p {
   font-size: 1rem;
+  margin-top: 5px;
+  height: 100px;
+  text-align: center;
+  white-space: pre-wrap; /* Permite los saltos de línea */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  position: initial;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators {
+  margin: 20px;
+  display: block;
 }
