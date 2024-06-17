@@ -1,4 +1,4 @@
-const seriesJson = "/Multielda/src/data/series.json";
+const seriesJson = "/multielda/src/data/series.json";
 let peliculasFiltradas = [];
 let peliculas = [];
 
