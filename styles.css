@@ -185,9 +185,7 @@ iframe {
 
 /*-------------------Novedades slider carusel-------*/
 .carousel-item img {
-  width: 100%;
-  height: auto;
-  max-height: 58rem;
+  max-height: 50rem;
   object-fit: contain;
 }
 .carousel-caption {
@@ -195,8 +193,8 @@ iframe {
   padding: 20px;
   border-radius: 10px;
 }
-.carousel-caption h5 {
-  font-size: 1.5rem;
+.carousel-caption h2 {
+  font-size: 2rem;
 }
 .carousel-caption p {
   font-size: 1rem;
