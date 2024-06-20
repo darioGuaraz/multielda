@@ -2,6 +2,26 @@
   --primary-color: #2d728f;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.navbar-brand {
+  color: rgb(161, 6, 6);
+  font-family: "Anton", sans-serif;
+  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.836);
+  font-size: x-large;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 50px;
+  background-color: #181717;
+  border-width: 2px;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #8bb1c2;
