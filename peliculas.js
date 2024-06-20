@@ -35,6 +35,13 @@ function mostrarPeliculas(peliculas) {
     loop: true,
     margin: 10,
     nav: true,
+    autoplay: true, // Activa el desplazamiento automático
+    autoplayTimeout: 3500, // Tiempo de espera entre desplazamientos (en milisegundos)
+    autoplayHoverPause: true, // Pausa el desplazamiento automático al pasar el mouse sobre el carrusel
+    autoplaySpeed: 2500, // Velocidad del desplazamiento automático (en milisegundos)
+    animateOut: "fadeOut", // Efecto de desvanecimiento al salir
+    animateIn: "fadeIn", // Efecto de desvanecimiento al entrar
+    smartSpeed: 1500, // Ajusta la duración de la transición
     responsive: {
       0: {
         items: 1,
@@ -47,4 +54,13 @@ function mostrarPeliculas(peliculas) {
       },
     },
   });
+}
+
+// Función para mezclar el array de películas
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
