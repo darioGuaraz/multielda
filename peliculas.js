@@ -36,7 +36,7 @@ function mostrarPeliculas(peliculas) {
     margin: 10,
     nav: true,
     autoplay: true, // Activa el desplazamiento automático
-    autoplayTimeout: 3500, // Tiempo de espera entre desplazamientos (en milisegundos)
+    autoplayTimeout: 4500, // Tiempo de espera entre desplazamientos (en milisegundos)
     autoplayHoverPause: true, // Pausa el desplazamiento automático al pasar el mouse sobre el carrusel
     autoplaySpeed: 2500, // Velocidad del desplazamiento automático (en milisegundos)
     animateOut: "fadeOut", // Efecto de desvanecimiento al salir
